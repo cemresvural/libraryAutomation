@@ -3,16 +3,11 @@ package com.kutuphane.kutuphaneotomasyon.Controllers;
 import com.kutuphane.kutuphaneotomasyon.Dtos.Author.CreateAuthorDto;
 import com.kutuphane.kutuphaneotomasyon.Dtos.Author.UpdateAuthorDto;
 import com.kutuphane.kutuphaneotomasyon.Entities.Author;
-import com.kutuphane.kutuphaneotomasyon.Repository.AuthorRepository;
 import com.kutuphane.kutuphaneotomasyon.Services.abstracts.AuthorService;
 import lombok.RequiredArgsConstructor;
-import org.hibernate.sql.Update;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 @RestController
 @RequestMapping("/api/author")
 @RequiredArgsConstructor

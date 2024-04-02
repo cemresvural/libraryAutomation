@@ -1,17 +1,12 @@
 package com.kutuphane.kutuphaneotomasyon.Controllers;
 
 import com.kutuphane.kutuphaneotomasyon.Dtos.Borrow.CreateBorrowDto;
-import com.kutuphane.kutuphaneotomasyon.Entities.Book;
 import com.kutuphane.kutuphaneotomasyon.Entities.Borrow;
-import com.kutuphane.kutuphaneotomasyon.Repository.BorrowRepository;
 import com.kutuphane.kutuphaneotomasyon.Services.abstracts.BorrowService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/borrow")

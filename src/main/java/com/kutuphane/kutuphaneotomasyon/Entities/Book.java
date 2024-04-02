@@ -1,6 +1,5 @@
 package com.kutuphane.kutuphaneotomasyon.Entities;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
